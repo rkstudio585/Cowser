@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Check if Python script exists
+if [ ! -f "main.py" ]; then
+    echo "Error: cowser.py not found!"
+    exit 1
+fi
+
+# Check for command-line argument
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <command>"
+    echo "Commands:"
+    echo "  <user_name>   Greet the user with a random ASCII art cow."
+    echo "  help          Show this help message."
+    echo "  list          List all available ASCII art options."
+    exit 1
+fi
+
+command="$1"
+
+# Execute the Python script with the given command
+python3 main.py "$command"
