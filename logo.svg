@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" stroke="#4CAF50" stroke-width="5" fill="#F1F8E9" />
+
+  <!-- Cow Face -->
+  <circle cx="100" cy="100" r="70" fill="#FFF" stroke="#4CAF50" stroke-width="5" />
+
+  <!-- Cow Eyes -->
+  <circle cx="75" cy="85" r="10" fill="#000" />
+  <circle cx="125" cy="85" r="10" fill="#000" />
+
+  <!-- Cow Nose -->
+  <ellipse cx="100" cy="115" rx="20" ry="15" fill="#FFEB3B" stroke="#4CAF50" stroke-width="3" />
+
+  <!-- Cow Mouth -->
+  <path d="M90,130 Q100,140 110,130" stroke="#4CAF50" stroke-width="5" fill="transparent" />
+
+  <!-- Text -->
+  <text x="50%" y="90%" font-family="Arial" font-size="24" text-anchor="middle" fill="#4CAF50">Cowser</text>
+</svg>
